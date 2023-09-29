@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      body {background:red;}
+      /* h1 predstavlja CSS selector,sto je zapravo pravilo pomocu kojeg pristupamo 
+      html elementu za koji zelimo da definisemo stilove */
+      h1 {
+        /* color predstavlja CSS property (svojstvo) */
+        color: rgb(11, 11, 11);
+        }
+          p {
+          /* font-size: 16px; standardna velicina slova je 16 px */
+          font-size: 18px;  
+          text-indent: 25px;
+          /* text-align: left; defaultna vrednost */  
+          text-align: right;
+          text-align: center; /* primenice se poslednje definisano svojstvo */   
+          text-align: justify;
+            /* text-transform: uppercase; */
+            /* text-transform: capitalize; */
+            /* text-transform: none; */
+            text-transform: lowercase;
+          }
+          ul {
+            list-style-position: inside;
+          }
+          .prvi {
+            background-color: crimson;
+            width: 400px;
+            height: 400px;
+          }
+          #naslov {
+            color: black;
+            /* id ima prioritet u odnosu na klasu kada se radi o primeni stilova */
+            /* obicno cemo koristiti id ako zelimo da definisemo neki jedinstven element. */
+          }
+          .naslov {
+            color: rgb(17, 161, 26);
+          }
+    </style>
+  </head>
+  <body>
+    <!-- klasi "prvi" pristupamo za prefiksom . u css_u -->
+    <div class="prvi">
+      <h1>Danas radimo CSS (Cascading Style Sheets)</h1>
+      <!--Jezik za definisanje stilova na nasoj stranici -->
+      <!-- ud_u "naslov" pristupamo sa prefiksom # u css_u -->
+    <h2 id="naslov" class="naslov">CSS mozemo primeniti na nekoliko nacina</h2>
+    <ul>
+      <li style="color:rgb(6, 6, 6); text-align: center">Inline stilovi</li>
+      <li>Stilovi definisani unutar head taga </li> 
+      <li>Eksterni stilovi</li>
+      </ul>
+    </body>
+  </div>
+  <div>
+      <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi rem
+        quasi.
+      </h1>
+      <p style="color: black">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis,
+        animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, minima ea doloribus tempore eum eaque deleniti excepturi, quidem accusamus a nam totam! Veniam, sunt repellendus. Quibusdam exercitationem veritatis quam maiores cupiditate. At est rem eligendi eveniet quae aspernatur reprehenderit necessitatibus porro. Deleniti expedita explicabo iure molestias quos veritatis minus.
+      </p>
+    </div>
+  </body>
+</html>

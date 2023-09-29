@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(24, 124, 239);
+}
+.main {
+  width: 500px;
+  height: 500px;
+  background-color: cornflowerblue;
+  border: 3px solid black;
+  /* border: 3px doubled black; */
+  /* border: 3px dashed black; */
+  /* border: 3px dotted black; */
+  /* margin: 50px margina u odnosu na sve cetiri strane */
+  margin-top: 30px; /* margina u odnosu na gornji element */
+  margin-right: 30px; /* margina u odnosu na desni element */
+  margin-left: 20px; /* margina u odnosu na levi element */
+  margin-bottom: 10px; /* margina u odnosu na donji element */
+  margin: 50px 40px 30px 20px; /* ide u pravu kazaljke na satu (top,right,left,bottom)*/
+  margin:  30px auto; /* podjednako udaljen element od leve i desne strane */
+  padding: 10px 25px;
+  border-radius: 10px 5px 15px 0px;
+}
+.drugi {
+  /*width: 500px;
+  height: 500px; */
+  background-color: blue;
+}
+.main p {
+    text-align: justify;
+}

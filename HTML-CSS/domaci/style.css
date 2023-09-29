@@ -1,0 +1,53 @@
+.main {
+  position: relative;
+  left: 540px;
+  top: 20 px;
+  align-items: center;
+  border: 3px;
+  height: 180px;
+  width: 380px;
+  background-color: rgb(57, 57, 57);
+  border-radius: 20px;
+  color: white;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+.master {
+  margin: 10px 10px;
+}
+.cnumb {
+  color: white;
+  padding-left: 10px;
+}
+.num {
+  margin: -10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+}
+.name {
+  padding-left: 25px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.kiki {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  right: 15px;
+}
+.date {
+  position: relative;
+  left: 100px;
+  top: 15px;
+}
+.cip {
+  width: 65px;
+  position: relative;
+  right: 15px;
+  bottom: 5px;
+}
+.slike {
+  display: flex;
+  justify-content: space-between;
+}
