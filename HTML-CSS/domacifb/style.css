@@ -1,10 +1,95 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
 * {
-  background-color: rgb(207, 205, 205);
+  background-color: rgb(223, 223, 223);
+  font-family: "Poppins", sans-serif;
 }
 .face {
+  margin-bottom: 3px;
+  font-size: 50px;
   color: rgb(2, 117, 218);
 }
 .tekst {
-    font-weight: 1000;
+  margin-top: 0px;
+  font-weight: 530;
+  font-size: 25px;
+}
+.fb {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left: 500px;
+  margin-top: 270px;
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+}
+
+.drugo {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px;
+  width: 400px;
+  height: 350px;
+  box-shadow: 0px 0px 30px 12px rgba(0, 0, 0, 0.1);
+  float: right;
+  margin-top: 300px;
+  margin-right: 550px;
+  margin-bottom: 200px;
+}
+.imejl {
+  height: 25px;
+  background-color: white;
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 9px;
+  border-radius: 10px;
+}
+.sifra {
+  height: 25px;
+  background-color: white;
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+.prijava {
+  width: 373px;
+  height: 50px;
+  padding: 0;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: 5px solid #007bff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.forgot {
+  margin-left: 110px;
+  margin-top: 0px;
+  background-color: white;
+  color: #007bff;
+}
+
+.create {
+  width: 200px;
+  height: 50px;
+  padding: 0;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 16px;
+  background-color: #14c001;
+  color: #fff;
+  border: 5px solid #14c001;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.brand {
+  margin-bottom: 20px;
+}
+.a {
+  font-weight: bold;
 }
