@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg); */
+    font-family: "Poppins", sans-serif  ;
+}
+
+.main {
+    /* rgba cini nasu pozadinu prozirnom u odredjenoj meri - zavisi od a parametra (0-1) */
+    /*  background-color: rgb(12, 184, 184, 0.5); */
+    background-color: tomato;
+    /* opacity cini ceo element prozirnim (sa sve sadrzajem) */
+    opacity: 0.5;
+    width: 500px;
+    height: 500px;
+}
+img {
+    width: 1000px;
+    height: 400px;
+    float: left;
+    margin-right: 15px;
+}
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color:crimson;
+    opacity: 0.5;
+    float: left;
+}
+
+.box2 {
+    width: 500px;
+    height: 700px;
+    background-color: teal;
+    float: left;
+}
+.paragraf {
+    clear: both;
+}

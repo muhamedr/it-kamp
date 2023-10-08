@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+* {
+  background-color: rgb(207, 205, 205);
+}
+.face {
+  color: rgb(2, 117, 218);
+}
+.tekst {
+    font-weight: 1000;
+}

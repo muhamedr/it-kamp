@@ -1,0 +1,29 @@
+.box {
+  width: 150px;
+  height: 150px;
+  /* float: left; */
+  float: right;
+}
+
+.box1 {
+  background-color: saddlebrown;
+}
+.box2 {
+  background-color: blue;
+}
+.box3 {
+  background-color: crimson;
+}
+.box4 {
+  background-color: palegoldenrod;
+  /* clear: both; */
+}
+.box5 {
+  background-color: orangered;
+}
+.box6 {
+  background-color: orchid;
+}
+.box7 {
+  background-color: mediumspringgreen;
+}
