@@ -3,6 +3,88 @@
   background-color: rgb(244, 244, 244);
   font-family: "Poppins", sans-serif;
 }
+
+.box {
+  position: fixed;
+  background-color: grey;
+  width: 100%;
+  height: 90px;
+}
+
+.login {
+  border: 5px;
+  background-color: aqua;
+  width: 70px;
+  height: 30px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 15px;
+  border-radius: 5px;
+  text-align: center;
+  color: gray;
+}
+
+.more {
+  float: right;
+  border: 5px;
+  text-align: center;
+  width: 58px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-right: 15px;
+  background-color: aqua;
+  font-size: 20px;
+}
+
+.contact {
+  float: right;
+  border: 5px;
+  border-radius: 5px;
+  background-color: aqua;
+  height: 40px;
+  width: 83px;
+  margin-top: 25px ;
+  margin-right: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.home {
+  float: right;
+  border: 5px;
+  border-radius: 5px;
+  background-color: aqua;
+  height: 40px;
+  width: 57px;
+  margin-top: 25px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 13px;
+
+}
+
+.logo {
+  float: left;
+  height: 70px;
+  width: 100px;
+  margin-top: 5px;
+}
+
+
+.about {
+  float: right;
+  border: 5px;
+  border-radius: 5px;
+  background-color: aqua;
+  height: 53px;
+  width: 84px;
+  margin-top: 25px;
+  margin-right: 13px;
+  font-size: 20px;
+  text-align: center;
+}
+
 .face {
   margin-bottom: 3px;
   font-size: 50px;
