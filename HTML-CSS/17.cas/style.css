@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+}
+
+/* .container {
+    margin: 3px;
+    border: 0.5rem solid green;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+} */
+
+.main {
+    background-color: aqua;
+    border: 0.5rem solid green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+} 
+.box {
+    width: 300px;
+    height: 450px;
+    border: 0.3rem solid ;
+}
+
+.sunce1 {
+    width: 280px;
+    position: relative;
+}
+
+.sunce2 {
+    width: 280px;
+}
+.sunce3 {
+    position: relative;
+    right: 20px;
+    width: 320px;
+    height: 280px;
+}
+
+.qwer {
+    text-align: center;
+}
+.asdf {
+    text-align: center;
+}
+.zxcv {
+    text-align: center;
+}
+/* .box {
+    width: 230px;
+    height: 80%;
+    background-color: black;
+}
+.one {
+    background-color: aqua;
+}
+.two {
+    background-color: brown;
+}
+.three {
+    background-color: yellow;
+} */
