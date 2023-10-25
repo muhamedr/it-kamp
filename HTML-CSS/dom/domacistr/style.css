@@ -253,14 +253,15 @@
 
 .footer {
   height: 330px;
-  background-color: rgb(243, 243, 243);
+  background-color: white;
 }
 
 .child {
   height: 170px;
   width: 200px;
   background-color: brown;
-  transition: 2s; 
+  transition: 2s;
+  border-radius: 50%;
 }
 
 .child2 {
@@ -269,6 +270,7 @@
   background-color: blue;
   float: right;
   transition: 2s;
+  border-radius: 50%;
 }
 
 .child:hover { 
