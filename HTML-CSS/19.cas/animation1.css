@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.parent {
+  margin: auto;
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+}
+.child {
+    width: 50%;
+    height: 50%;
+    background-color: darkkhaki;
+    transition: transform 1s ease-in-out;
+}
+
+.parent:hover .child {  
+    transform: translateX(100%); /* transformacija po X osi */
+    /* transform: translateY(100%); y osa */
+    /* transform: translate(100%, 100%); x i y osa */
+    /* transform: scale(1.1); manje od 1 ili vise od 1,uveca sliku  ili je smanji */
+    /* transform: scale(0.8,1.2); promena po sirni (visini)  */
+    background-color: red;
+}
