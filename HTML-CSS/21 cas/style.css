@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  background-color: aqua;
+  color: red;
+  font-size: 2rem;
+}
+
+/* 
+@media (max-width: 500px) and (max-height: 400px) {
+    .main {
+        background-color: yellow;
+        color: violet;
+        font-size: 1rem;
+    }
+} */
+@media all and (max-width: 500px) {
+    .main {
+        background-color: yellow;
+        color: violet;
+        font-size: 1rem;
+    }
+}

@@ -273,7 +273,7 @@
   border-radius: 50%;
 }
 
-.child:hover { 
+.child:hover {
   transform: translateX(1699px);
   background-color: blue;
 }
