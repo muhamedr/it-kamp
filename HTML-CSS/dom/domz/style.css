@@ -7,10 +7,12 @@
   text-decoration: none;
 }
 
-/* .logo { 
-    height: 50px;
-    width: 100px;
-} */
+.logo { 
+    height: 30px;
+    width: 150px;
+    position: relative;
+    top: 30px;
+}
 
 .header {
   position: fixed;
@@ -29,14 +31,15 @@
   gap: 31px;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: 30px;
+
 }
 .info a {
   color: white;
 }
 
 .ikonice {
+  position: relative;
+  bottom: 30px;
   color: white;
   font-size: 20px;
   display: flex;
