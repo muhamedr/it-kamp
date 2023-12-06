@@ -66,12 +66,17 @@ obj = {
   punoletan: true,
 };
 console.log(obj);
-console.log(typeof obj)
+console.log(typeof obj);
 
 // 2.3. Set - predstavlja strukturu podataka za  skladistenje vise vrednosti. Duplikati nisu dozvoljeni.
 
-set = new Set(["Kanita", 19, true]) // ako dodamo jos jednu kanitu ta se druga kanita nece videt 
-console.log(set)
-console.log(typeof set)
+set = new Set(["Kanita", 19, true]); // ako dodamo jos jednu kanitu ta se druga kanita nece videt
+console.log(set);
+console.log(typeof set);
 
 // 2.4. Map - predstavlja strukturu podataka za skladistenje vise vrednosti.Slicni su objektima.
+map = new Map([
+  ["ime", "Kanita"],
+  ["brojGodina", 19],
+  ["punoletnost", true],
+]);
