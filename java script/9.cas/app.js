@@ -1,36 +1,37 @@
-// Napisati program koji na osnovu dva uneta broja od strane korisnika ispisuje:
-//  Povrsinu kvadrata ako su uneti brojevi jednaki,
-// Povrsinu pravougaonika ako su uneti brojevi razliciti
+const demir = "Demir";
 
-const a = Number(prompt("Unesite prvi broj"));
-const b = Number(prompt("Unesite drugi broj"));
-
-if (a === b) {
-  console.log("Povrsina kvadrata je " + a * b);
-} else {
-  console.log("Povrsina pravougaonika je " + a * b);
+for (let i = 0; i < 10; i++) {
+  console.log(demir);
 }
 
-// Kalkulator opercija:
-// Napisi program koji ce traziti od korisnika da unese dva broja i operaciju (), a zatim ispisati rezultat te operacije.
+// 1. Ispisati brojeve od 1 do 10, izuzev broja 2 i broja 5.
 
-const operacija = +prompt("Unesite aritmeticku operaciju");
-switch (operacija) {
-  case "+":
-    console.log(a + b);
+// 1. nacin
+for (let i = 1; i <= 10; i++) {
+  if (i !== 2 && i !== 5) {
+    console.log(i);
+  }
+}
+
+// continue keyword koristimo kada zelimo da preskocimo radnju za tu iteraciju i nastavimo petlju sa narednom iteracijom.
+
+// 2. nacin
+for (let i = 1; i <= 10; i++) {
+  if (i === 2 || i === 5) {
+    continue;
+  } else {
+    console.log(i);
+  }
+}
+
+// 2. Ispisati sve brojeve od 1 do 10. Ako je neki broj deljiv sa 7 neka se prekine petlja.
+
+// break izvrsava prekidanje petlje. Ako zelimo da se u nekom momentu prestane izvrsavanje onda koristimo break.
+
+for (let i = 1; i <= 10; i++) {
+  if (i % 7 === 0) {
     break;
-    console.log(a - b);
-    break;
-    console.log(a * b);
-    break;
-    case "/":
-    if (b === 0) {
-        console.log("Deljenje nije moguce nulom.")
-    } else {
-        console.log(a / b)
-    }
-    console.log(a / b);
-    break;
-    default:
-        console.log("Nepoznata aritmeticka operacija")
+  } else {
+    console.log(i);
+  }
 }
