@@ -13,15 +13,6 @@ for (let broj = 1; broj <= 20; broj += 2) {
   console.log(broj);
 }
 
-// 1.2
-
-for (let broj = 1; broj <= 20; broj++) {
-  if (broj % 2 === 0) {
-    continue;
-  }
-  console.log(broj);
-}
-
 // 2.1
 
 for (let broj = 2; broj <= 20; broj += 2) {
@@ -32,7 +23,7 @@ for (let broj = 2; broj <= 20; broj += 2) {
 
 for (let broj = 6; broj <= 14; broj++) {
   let dvostruko = broj * 2;
-  console.log(`Dvostruka vrijednost broja ${broj} je ${dvostruko}`);
+  console.log(`Dvostruka vrednost broja ${broj} je ${dvostruko}`);
 }
 
 // 4
