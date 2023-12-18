@@ -1,22 +1,12 @@
 // 1.
-
-// broj = +prompt("Unesite bilo koji broj");
-// if ((broj = Number  )) {
-
-// }
-// console.log("Niste uneli broj.")
+let nekiBr = +prompt("unesite neki broj");
+if (isNaN(nekiBr)) {
+  console.log("niste uneli broj");
+} else {
+  console.log(nekiBr ** 2);
+}
 
 // 3.
-let brojac = 0;
-let i = 1;
-
-while (brojac < 3) {
-  if (i % 4 === 0 && i % 6 === 0) {
-    console.log(i);
-    brojac++;
-  }
-  i++;
-}
 
 // 2.
 
